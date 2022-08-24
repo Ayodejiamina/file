@@ -1,0 +1,31 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    width:90%;
+    height: 50px;
+    border-radius: 10px;
+}
+.container{
+    margin-left: 10px;
+}
+.cont1{
+    text-align: center;
+}
+button{
+    width: 20%;
+    height: 50px;
+    border-radius: 20px;
+    background-color:dodgerblue;
+    color: white;
+}
+small{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+span {
+    padding-left: 4px;
+}

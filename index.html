@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    
+</head>
+<body>
+    <h1>FORM VALIDATION</h1>
+<div class="">
+<h2>User Details</h2>
+<div>Name:<span id="Username"></span></div><br>
+<div>Email Address:<span id="Useremail"></span></div><br>
+<div>Phone Number:<span id="User-number"></span></div><br>
+<div>Profile Upload:<span id="User-profile"></span></div><br>
+</div>
+
+
+    <div class="container">
+<form id="formsec">
+        <div style="margin-bottom:15px ;">           
+            <label for="Name">Name:</label><br>
+            <input type="text" id="name-sec" name="naming"><br>
+            <small id="name-error"></small>
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="">Email:</label><br>
+            <input type="email" id="email-sec" name="email"><br>
+            <small id="email-error"></small>
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="">Phone Number:</label><br>
+            <input type="number" id="phone-sec" name="contacts"><br>
+            <small id="num-error"></small>
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="">Profile:</label><br>
+            <input type="file" id="file-sec" name="profile"><br>
+            <small id="profile-error"></small>
+        </div>
+        <div class="cont1" id="submit-sec">
+        <button type="submit" onclick="preventDefault()" onchange="files()">Submit</button>
+        </div>
+        </form>
+    </div>
+    
+
+
+
+
+
+
+
+
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
