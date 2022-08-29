@@ -52,6 +52,7 @@ if(!namerror.value || !emailerror.value || !numerror.value || !proerror.value){
     document.getElementById("User-number").innerHTML=phone.value
     document.getElementById("User-profile").innerHTML=file.value
 
+
 }
 if (!(phone.value.startsWith('080')
 ||phone.value.startsWith('091') 
@@ -76,36 +77,37 @@ if(!(emailsec.value.includes('@') && emailsec.value.includes('.'))){
 
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function files(){
+// function filesDetails(){
 //     let file= document.getElementById('file-sec').value
 //     let size = (parseInt(file.size) / 1024).toFixed(2);
 //     let imagename = file.name;
 //     let lastmodfy = file.lastModifiedDate
-//     document.getElementById('img').src = "images/" + imagename
+//     document.getElementById('file-sec').src = "images/" + imagename
 //     document.querySelector('#User-profile').innerHTML = `Name: ${imagename} <br>
 //     Size: ${size} MB <br> Modified Date: ${lastmodfy} <br>
 //     `
 
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // console.log(formsec)
 
 // if(file.value)
